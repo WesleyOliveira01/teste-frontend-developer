@@ -1,53 +1,27 @@
-# Teste para estágio Frontend e Full-Stack
 
-## Sobre a Ellos Design
+## CyberTech - Teste pratico 
+Este é o site da CyberTech, uma empresa que desenvolve sites voltados para performance e simplicidade. Aqui você encontra informações sobre nossos serviços, benefícios, perguntas frequentes e como entrar em contato conosco.
 
-A **Ellos Design** é uma agência de marketing e criação de sites localizada em Guarulhos / SP. Somos uma empresa em constante evolução e sempre estamos abertos para pessoas que gostem de tecnologia e queiram trabalhar na área, mas que principalmente queiram aprender e crescer com a nossa empresa.
+## Desktop:
+![desktop](https://github.com/WesleyOliveira01/teste-pratico/blob/a87c8c52644a99400fe5cc1f16b1f9c0c800f07b/img/desktop.png)
 
-## Sobre o teste
+## Mobile:
+![mobile](https://github.com/WesleyOliveira01/teste-pratico/blob/a87c8c52644a99400fe5cc1f16b1f9c0c800f07b/img/mobile%20.png)
 
-Este é um teste prático que desenvolvemos para a avaliação dos candidatos participantes de nosso processo seletivo para vagas de Frontend ou Full-Stack.
 
-## Tecnologias para o desafio
+## Navegue facilmente pelos campos do site CyberTech:
+Contato
+Preencha o formulário de contato para enviar uma mensagem para nossa equipe de suporte e vendas.
 
-Você deve utilizar as seguintes tecnologias para o desenvolvimento do teste:
+## Quem Somos
+Saiba mais sobre nossa história, missão e valores.
 
-- HTML5
-- CSS
-- JavaScript ou jQuery
-- PHP (Para Full-Stack)
-- MySQL (Para Full-Stack)
+## Benefícios
+Conheça os benefícios de escolher a CyberTech para desenvolver seu site e solicite um orçamento criando no botão de contato para preencher o formulário de contato.
 
-## O que nos impressionaria no teste
+## Perguntas Frequentes
+Encontre respostas para as perguntas mais frequentes sobre nossos serviços, clicando em cada card para abrir um dropdown com a resposta.
 
-- Utilização de um pré-processador para o CSS (De preferência o Sass)
-- Aplicação de animações em CSS (Ex: Animações ao realizar scroll)
-- Ver o teste rodando em live (Bucket estático S3, Heroku, Firebase Hosting, etc)
-- Documentação do projeto (Com instruções para executar)
+## Visite o Website:
 
-## O que avaliaremos no seu teste
-
-- Criatividade
-- Organização do código
-- Performance do código
-- Boas práticas de desenvolvimento
-- Documentação do código
-- Adaptação mobile (layout responsivo)
-- Documentação do projeto (Com instruções para executar)
-
-## Etapas para realização do teste
-
-- Faça um [fork](https://github.com/Ellos-Design/teste-frontend-developer/fork) desse projeto em sua conta do GitHub
-- Realize o desafio proposto
-- Faça um push para seu repositório com o desafio implementado
-- Envie um email para (vagas@ellosdesign.com.br) com a URL do seu projeto avisando que você concluiu o teste
-
-## O desafio
-
-Você deverá desenvolver uma landing page seguindo a estrutura exibida na imagem abaixo. Você pode utilizar os textos e imagens de sua preferência para a criação da página.
-
-#### Full-Stack
-
-Deixar o formulário da landing page funcional, onde ao preencher as informações e clicar para enviar, o formulário será submetido e os dados deverão ser gravados em um banco de dados (Neste caso será necessário nos enviar o arquivo SQL para podermos implementar o banco para avaliação do teste).
-
-![Template da página a ser desenvolvida](https://github.com/Ellos-Design/teste-frontend-developer/blob/master/wireframe.png?raw=true)
+<a href="https://cyber-tech01.000webhostapp.com/" target="_blank">CyberTech</a>

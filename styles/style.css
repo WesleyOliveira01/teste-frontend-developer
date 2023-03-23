@@ -1,0 +1,347 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.cabecalho {
+  background-color: #2C666E;
+  color: #F0EDEE;
+  padding: 5% 10%;
+}
+.cabecalho .menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 7%;
+}
+.cabecalho .menu h1 {
+  font-size: 2rem;
+  text-decoration: underline;
+  letter-spacing: 2px;
+}
+.cabecalho .menu .contato {
+  background-color: #F0EDEE;
+  color: #2C666E;
+  padding: 2%;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.cabecalho .headline_section {
+  display: flex;
+  padding-bottom: 2rem;
+}
+.cabecalho .headline_section .headline {
+  width: 65%;
+  padding-right: 10%;
+}
+.cabecalho .headline_section .headline h1 {
+  line-height: 3rem;
+  font-size: 3rem;
+  margin-bottom: 12px;
+}
+.cabecalho .headline_section .headline h3 {
+  opacity: 0.8;
+  font-size: 1.5rem;
+}
+.cabecalho .headline_section .formulario {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  color: #2C666E;
+  background-color: #F0EDEE;
+  padding: 1rem;
+  border-radius: 8px;
+}
+.cabecalho .headline_section .formulario label {
+  text-align: center;
+  margin-bottom: 12px;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.cabecalho .headline_section .formulario input,
+.cabecalho .headline_section .formulario textarea {
+  padding: 1rem;
+  border: none;
+  margin-bottom: 12px;
+  border-radius: 8px;
+  border: 1px solid #2C666E;
+}
+.cabecalho .headline_section .formulario input::-moz-placeholder, .cabecalho .headline_section .formulario textarea::-moz-placeholder {
+  color: #2C666E;
+  font-weight: bold;
+}
+.cabecalho .headline_section .formulario input::placeholder,
+.cabecalho .headline_section .formulario textarea::placeholder {
+  color: #2C666E;
+  font-weight: bold;
+}
+.cabecalho .headline_section .formulario input:focus,
+.cabecalho .headline_section .formulario textarea:focus {
+  outline: 2px solid #2C666E;
+}
+.cabecalho .headline_section .formulario input[type=submit] {
+  background-color: #2C666E;
+  color: #F0EDEE;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+@media (max-width: 500px) {
+  .cabecalho .cabecalho {
+    padding: 0;
+  }
+  .cabecalho .menu h1 {
+    font-size: 1.5rem;
+  }
+  .cabecalho .headline_section {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 3%;
+    place-items: center;
+  }
+  .cabecalho .headline_section .headline {
+    width: 100%;
+    padding: 0;
+    font-size: 0.5rem;
+  }
+  .cabecalho .headline_section .formulario {
+    width: 100%;
+    padding: 0.5rem;
+  }
+}
+
+main {
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+.quem_somos {
+  width: 100vw;
+  display: flex;
+  padding: 5% 10%;
+}
+.quem_somos img {
+  border-radius: 10px;
+  width: 50%;
+  height: 30%;
+}
+.quem_somos div {
+  display: flex;
+  flex-direction: column;
+  line-height: 2.5rem;
+  color: #2C666E;
+  font-size: 1.3rem;
+}
+.quem_somos div h1 {
+  margin-bottom: 16px;
+}
+@media (max-width: 800px) {
+  .quem_somos {
+    display: grid;
+    gap: 5%;
+    padding: 0;
+    margin-bottom: 18px;
+    place-items: center;
+  }
+  .quem_somos h1 {
+    font-size: 1.5rem;
+  }
+  .quem_somos p {
+    font-size: 1rem;
+    padding: 5%;
+  }
+  .quem_somos img {
+    border-radius: 0;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.beneficios {
+  width: 100vw;
+  padding: 5% 10%;
+  color: #2C666E;
+  background-color: #E0E1F6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.beneficios button {
+  padding: 1rem;
+  border-radius: 12px;
+  border: none;
+  width: 30%;
+  background-color: #2C666E;
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: bold;
+  margin: 32px;
+}
+.beneficios button a {
+  color: #E0E1F6;
+  text-decoration: none;
+}
+.beneficios h1 {
+  margin: 32px;
+  font-size: 2rem;
+}
+.beneficios section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  place-items: center;
+}
+.beneficios .card_beneficio {
+  padding: 1.5rem;
+  display: flex;
+}
+.beneficios .card_beneficio i {
+  font-size: 3rem;
+  align-self: center;
+  padding: 1.5rem;
+}
+.beneficios .card_beneficio div {
+  line-height: 1.5rem;
+}
+.beneficios .card_beneficio div h2 {
+  margin-bottom: 12px;
+}
+@media (max-width: 800px) {
+  .beneficios {
+    width: 100vw;
+    padding: auto;
+  }
+  .beneficios .card_beneficio {
+    display: grid;
+    place-items: center;
+  }
+  .beneficios section {
+    grid-template-columns: 1fr;
+  }
+  .beneficios button {
+    width: 70%;
+  }
+  .beneficios h1 {
+    font-size: 1.5rem;
+  }
+}
+
+.perguntas_frequentes {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #2C666E;
+  padding: 5% 0;
+}
+.perguntas_frequentes h1 {
+  font-size: 2rem;
+  margin: 32px;
+}
+.perguntas_frequentes .card_pergunta {
+  padding: 1rem;
+  width: 40%;
+  text-align: center;
+  border: 2px solid #2C666E;
+  border-radius: 12px;
+  margin-bottom: 12px;
+  cursor: pointer;
+}
+.perguntas_frequentes .card_pergunta summary {
+  font-weight: bold;
+}
+.perguntas_frequentes .card_pergunta p {
+  margin-top: 12px;
+}
+@media (max-width: 800px) {
+  .perguntas_frequentes {
+    padding: 5%;
+  }
+  .perguntas_frequentes .card_pergunta {
+    width: 90%;
+  }
+}
+
+.ultimo_contato {
+  width: 100vw;
+  padding: 5% 10%;
+  background-color: #E0E1F6;
+  color: #2C666E;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.ultimo_contato .fale_conosco h1 {
+  font-size: 2rem;
+  margin-bottom: 12px;
+}
+.ultimo_contato .entre_em_contato {
+  background-color: #fff;
+  padding: 5%;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.ultimo_contato .entre_em_contato button {
+  padding: 1rem;
+  border-radius: 12px;
+  border: none;
+  width: 70%;
+  background-color: #2C666E;
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: bold;
+  margin: 5%;
+}
+.ultimo_contato .entre_em_contato button a {
+  color: #E0E1F6;
+  text-decoration: none;
+}
+@media (max-width: 800px) {
+  .ultimo_contato {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 5%;
+    place-items: center;
+    padding: 5%;
+  }
+}
+
+footer {
+  width: 100vw;
+  background-color: #2C666E;
+  color: #F0EDEE;
+  text-align: center;
+  font-size: 1rem;
+  padding: 1.5rem;
+}
+footer p {
+  margin-bottom: 12px;
+}
+
+[data-anima] {
+  opacity: 0;
+  transition: 0.8s;
+}
+
+[data-anima=left] {
+  transform: translate3d(-100px, 0, 0);
+}
+
+[data-anima=right] {
+  transform: translate3d(100px, 0, 0);
+}
+
+[data-anima].animado {
+  opacity: 1;
+  transform: translate3d(0px, 0px, 0px);
+}/*# sourceMappingURL=style.css.map */

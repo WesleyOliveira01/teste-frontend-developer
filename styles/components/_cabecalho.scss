@@ -1,0 +1,114 @@
+@import "../abstract/variaveis";
+
+.cabecalho {
+
+  background-color: $corPrimaria;
+  color: $corSecundaria;
+  padding: 5% 10%;
+  .menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 7%;
+    h1 {
+      font-size: 2rem;
+      text-decoration: underline;
+      letter-spacing: 2px;
+    }
+    .contato {
+      background-color: $corSecundaria;
+      color: $corPrimaria;
+      padding: 2%;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+  }
+  .headline_section {
+    display: flex;
+    padding-bottom: 2rem;
+
+    .headline {
+      width: 65%;
+      padding-right: 10%;
+      h1 {
+        line-height: 3rem;
+        font-size: 3rem;
+        margin-bottom: 12px;
+      }
+      h3 {
+        opacity: 0.8;
+        font-size: 1.5rem;
+      }
+    }
+
+    .formulario {
+      width: 35%;
+      display: flex;
+      flex-direction: column;
+      color: $corPrimaria;
+      background-color: $corSecundaria;
+      padding: 1rem;
+      border-radius: 8px;
+      label {
+        text-align: center;
+        margin-bottom: 12px;
+        font-size: 1.5rem;
+        font-weight: bold;
+      }
+      input,
+      textarea {
+        padding: 1rem;
+        border: none;
+        margin-bottom: 12px;
+        border-radius: 8px;
+        border: 1px solid $corPrimaria;
+      }
+      input,
+      textarea {
+        &::placeholder {
+          color: $corPrimaria;
+          font-weight: bold;
+        }
+
+        &:focus {
+          outline: 2px solid $corPrimaria;
+        }
+      }
+      input[type="submit"] {
+        background-color: $corPrimaria;
+        color: $corSecundaria;
+        font-size: 1rem;
+        font-weight: bold;
+        cursor: pointer;
+      }
+    }
+  }
+
+  @media (max-width: 500px) {
+    .cabecalho {
+      padding: 0;
+    }
+    .menu {
+      h1{
+        font-size: 1.5rem;
+      }
+    }
+    .headline_section {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 3%;
+      place-items: center;
+  
+      .headline {
+        width: 100%;
+        padding: 0;
+        font-size: 0.5rem;
+      }
+  
+      .formulario {
+        width: 100%;
+        padding: 0.5rem;
+      }
+    }
+  }
+}
